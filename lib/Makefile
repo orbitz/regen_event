@@ -1,4 +1,4 @@
-SUBDIRS =
+SUBDIRS = regen_event
 
 all_apps = $(SUBDIRS)
 
