@@ -2,7 +2,7 @@ CAMLP4=
 OCAMLC_OPTS=-package core,async,async_core
 OCAMLOPT_OPTS=$(OCAMLC_OPTS)
 
-LIB_MODULES=regen_event.ml
+LIB_MODULES=regen_event.ml regen_event_list_backend.ml
 NON_LIB_MODULES=
 
 BYTE_TARGETS=regen_event.cma
