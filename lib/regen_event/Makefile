@@ -13,7 +13,7 @@ NATIVE_TARGETS=regen_event.cmxa
 all: native-code byte-code
 
 install: all
-	ocamlfind install regen_event META regen_event.cmxa regen_event.cma *.cmx *.cmi *.mli
+	ocamlfind install regen_event META regen_event.cmxa regen_event.cma regen_event.a *.cmx *.cmi *.mli
 
 test:
 
