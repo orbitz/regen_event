@@ -1,6 +1,6 @@
 name="regen_event"
 version="1.0.0"
 description="Really generic events"
-requires="core,async,async_core"
+requires="core,async,gen_server"
 archive(byte)="regen_event.cma"
 archive(native)="regen_event.cmxa"
