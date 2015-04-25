@@ -8,8 +8,7 @@ subdirs_test  = $(all_apps:%=%_test)
 
 subdirs_install = $(all_apps:%=%_install)
 
-.PHONY: all test clean install \
-	$(SUBDIRS) $(subdirs_clean) $(subdirs_test) $(subdirs_install)
+.PHONY: all test clean $(SUBDIRS) $(subdirs_clean) $(subdirs_test) $(subdirs_install)
 
 all: $(SUBDIRS)
 
